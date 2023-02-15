@@ -1,0 +1,26 @@
+.main-block {
+    height: 550px;
+    width: 950px;
+    text-align: center;
+    outline: 5px dashed red;
+    outline-offset: 5px;
+    padding: 20px 40px ;
+    vertical-align: center;
+    margin: auto;
+    background-image: url("gigachad.jpg") ;
+    background-position: center;
+    background-attachment: scroll;
+
+}
+.head-words {
+    vertical-align: baseline;
+    color: white;
+}
+
+.result-count {
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
