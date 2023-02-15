@@ -13,18 +13,27 @@
 
 }
 .head-words {
-    vertical-align: baseline;
+    vertical-align: top;
     color: white;
 }
 
 .results {
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
     color: white;
 }
 
 .container {
     text-align: center;
+    margin: 150px;
+    margin-bottom: 10px;
 }
 
 .question {
     color: white;
+}
+
+.add-multi-btns {
+    margin-bottom: 5px;
 }
