@@ -1,20 +1,18 @@
+.head-words {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
 .main-block {
     height: 550px;
-    width: 950px;
-    text-align: center;
-    outline: 5px dashed blue;
-    outline-offset: 5px;
-    padding: 20px 40px ;
-    vertical-align: center;
-    margin: auto;
-    background-image: url("gigachad.jpg") ;
-    background-position: center;
-    background-attachment: scroll;
-
-}
-.head-words {
-    vertical-align: top;
-    color: white;
+    width: 950px; 
+    padding: 18px;
+    margin: 30px auto;
+    outline: 1px solid red;
+    background-image: url("gigachad.jpg");
+    font-family: Arial;
 }
 
 .results {
@@ -24,16 +22,30 @@
     color: white;
 }
 
-.container {
-    text-align: center;
-    margin: 150px;
-    margin-bottom: 10px;
-}
-
 .question {
+    margin: 10px;
     color: white;
 }
 
-.add-multi-btns {
-    margin-bottom: 5px;
+.btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.nav-list {
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch ;
+    color: white;
+
+}
+
+a {
+    color: red;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    direction: none;
 }
