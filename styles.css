@@ -5,14 +5,20 @@
     color: black;
 }
 
+html body {
+    height: 100%;
+}
+
 .main-block {
-    height: 550px;
-    width: 950px; 
+    /* height: 550px; */
+    /* width: 950px;  */
     padding: 18px;
-    margin: 30px auto;
+    /* margin: 30px auto; */
     outline: 1px solid red;
     background-image: url("gigachad.jpg");
     font-family: Arial;
+    width: 90%;
+    height: 90%;
 }
 
 .results {
@@ -44,8 +50,36 @@
 }
 
 a {
-    color: red;
+    /* color: red;
     background-color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    direction: none;
+    direction: none; */
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+input {
+    border-radius: 5px;
+    border: 0px;
+}
+
+nav{
+    background-color: dodgerblue;
+    border-radius: 5px;
 }
