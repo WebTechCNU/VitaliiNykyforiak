@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <title>Index</title>
 
     <!-- Ці лінки потрібні для роботи з Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -17,6 +18,9 @@
 
 <body>
     <div>
+        <!-- Bootstrap — це набір шаблонів для створення вебсайтів, який підключається переважно за допомогою атрибуту class -->
+
+        <!-- Тут, наприклад, для navbar підключаються класи navbar, navbar-expand-sm, text-light та інші -->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -36,8 +40,9 @@
                 </li>
             </ul>
         </nav>
-    </div>
 
+    </div>
+    
     <div class="container-fluid ml-1 mt-5 pt-3">
         <div class="row">
             <div class="col col-xl-6">
@@ -48,46 +53,25 @@
                 <p class="question">Type a number</p>
 
                 <div>
-                    <input class="rounded form-control" id="input-a" type="number" />
+                    <input class="rounded form-control" id="input-element-in-array" type="number" />
                 </div>
                 <br />
 
-                <div>
-                    <input class="rounded form-control" id="input-b" type="number" />
+                <div class="check-reload-btns mt-4">
+                    <button class="btn-primary rounded m-1" id="check-button">Check</button>
+                    <button class="btn-primary rounded m-1" id="reset-button">Reset</button>
                 </div>
-                <br />
-
-
-                <div class="add-multi-btns mt-4">
-                    <button class="btn-primary rounded m-1" id="adding-button">Addition</button>
-                    <button class="btn-primary rounded m-1" id="multi-button">Multiplication</button>
-                </div>
-
-                <div class="subtr-divi-btns mt-4">
-                    <button class="btn-primary rounded m-1" id="subtr-button">Subtraction</button>
-                    <button class="btn-primary rounded m-1" id="divi-button">Division</button>
-                </div>
-
 
                 <div class="results list-group mt-4">
                     <div class="list-group-item">
-                        <span>Result of addition: </span><span class="add-res"></span>
-                    </div>
-                    <div class="list-group-item">
-                        <span>Result of multiplication: </span><span class="multi-res"></span>
-                    </div>
-                    <div class="list-group-item">
-                        <span>Result of subtraction: </span><span class="subtr-res"></span>
-                    </div>
-                    <div class="list-group-item">
-                        <span>Result of division: </span><span class="divi-res"></span>
+                        <span>Check result: </span><span class="check-res"></span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="./count.js"></script>
+    <script src="./checker.js"></script>
 </body>
 
 </html>
