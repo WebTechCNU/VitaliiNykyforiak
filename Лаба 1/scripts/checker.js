@@ -21,4 +21,5 @@ let resButton = document.getElementById("reset-button");
 resButton.addEventListener("click", function() {
     arr = [];
     checkResult.innerHTML = "";
+    document.getElementById("input-element-in-array").value = "";
 });
